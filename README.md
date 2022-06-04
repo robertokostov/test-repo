@@ -10,7 +10,7 @@
   2. docker run -d --name app-image rkostov/app-image
   3. docker exec -it app-image sh
   
-- Running the <container-ip>:5000 gave back the same result as running localhost:5000 in the second step
+- Running the //container-ip//:5000 gave back the same result as running localhost:5000 in the second step
 
 - Used k3s for spinning up a local Kubernetes cluster
 
