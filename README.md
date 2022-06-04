@@ -36,7 +36,13 @@
 
   1. helm upgrade helm-chart helm-chart/
   
-  Having previously set a different appVersion.
+  Having previously set a different appVersion
 
 - Deployments also would be as rolling updates anyway as a Kubernetes feature. It would not bring the previous ones
-  down without having the newer ones up and ready.
+  down without having the newer ones up and ready
+
+- Honestly I am not the best developer, so in the given time I would not be able to make the task 2 work. Because of
+  that I decided to make an action for the task 1
+
+- Added a suitable workflow for this purpose that tests, lints and then builds the application. Tests are commented out
+  because the lack of them
